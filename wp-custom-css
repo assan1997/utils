@@ -1,0 +1,69 @@
+#header{
+	display:block
+}
+body,.light,.outline ,.sidebar ,.widget:last-child{
+	border-bottom:none !important
+}
+.sidebar{
+	width:100%;
+	position :absolute;
+	top:0;
+	left:0;
+	z-index:10;
+	display :none
+}
+
+#custom_html-4{
+	padding:0 !important;
+	width :100%;
+}
+
+.my-custom-header{
+	height:80px;
+	width:100%;
+	display : flex;
+	align-items :center;
+	justify-content:space-between;
+	background :#fff;
+	padding:10px 20px 10px 20px;
+}
+
+.my-custom-menu{
+	width :50%;
+	height :100%;
+	display:flex;
+	align-items:center;
+	justify-content :flex-end;
+	font-family :"Roboto", Sans-serif;
+	font-size :13px;
+}
+
+.my-custom-icon{
+	height:100%;
+	display :flex;
+	align-items:center
+}
+
+.my-custom-header .my-custom-menu a , .my-custom-icon a{
+	text-align:center;
+	text-decoration :none;
+	font-size:13px;
+	font-weight:700;
+	font-family:Montserrat;
+}
+
+.my-custom-menu a {
+	margin-left :35px
+}
+
+.my-custom-menu a:hover{
+	color :#0D4D7C
+}
+
+.my-custom-icon a{
+	margin-right :10px
+}
+
+.my-custom-menu-hambergeur{
+		display : none;
+}
